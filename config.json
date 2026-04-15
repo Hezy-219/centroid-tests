@@ -1,0 +1,19 @@
+{
+  "mode": "mock",
+
+  "embedding": {
+    "type": "mock",
+    "dimensions": 128
+  },
+
+  "centroid": {
+    "similarity_threshold": 0.75
+  },
+
+  "retrieval": {
+    "top_k": 3,
+    "alpha": 0.6,
+    "beta": 0.3,
+    "gamma": 0.1
+  }
+}
